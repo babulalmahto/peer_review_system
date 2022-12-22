@@ -1,0 +1,25 @@
+{
+  "name": "peer_review_system",
+  "version": "1.0.0",
+  "description": "peer review system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "sauravvishal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.9",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
